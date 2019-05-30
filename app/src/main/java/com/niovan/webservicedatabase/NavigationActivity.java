@@ -51,6 +51,9 @@ public class NavigationActivity extends AppCompatActivity
 
         setTitle("Personas");
 
+        // Ocultar toolbar
+        getSupportActionBar().hide();
+
         Fragment myFragment = new InicioFragment();
         getSupportFragmentManager().beginTransaction().add(R.id.content_main, myFragment).commit();
     }
@@ -97,7 +100,8 @@ public class NavigationActivity extends AppCompatActivity
         boolean fragmentSelected = false;
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
+            myFragment = new InicioFragment();
+            fragmentSelected = true;
         } else if (id == R.id.nav_registrar) {
             myFragment = new RegistrarPersonaFragment();
             fragmentSelected = true;
