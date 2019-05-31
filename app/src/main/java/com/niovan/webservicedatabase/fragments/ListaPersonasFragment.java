@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.niovan.webservicedatabase.MyPersonaRecyclerViewAdapter;
 import com.niovan.webservicedatabase.R;
 import com.niovan.webservicedatabase.models.Persona;
 
@@ -61,7 +62,7 @@ public class ListaPersonasFragment extends Fragment {
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            //Lista de elementos (Personas) TODO
+            //Lista de elementos (Personas)
             listaPersonas = new ArrayList<>();
             listaPersonas
                     .add(new Persona("Carlos",

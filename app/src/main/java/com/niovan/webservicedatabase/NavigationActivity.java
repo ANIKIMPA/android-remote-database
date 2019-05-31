@@ -51,9 +51,6 @@ public class NavigationActivity extends AppCompatActivity
 
         setTitle("Personas");
 
-        // Ocultar toolbar
-        getSupportActionBar().hide();
-
         Fragment myFragment = new InicioFragment();
         getSupportFragmentManager().beginTransaction().add(R.id.content_main, myFragment).commit();
     }
@@ -99,13 +96,13 @@ public class NavigationActivity extends AppCompatActivity
         Fragment myFragment = null;
         boolean fragmentSelected = false;
 
-        if (id == R.id.nav_home) {
+        if (id == R.id.nav_inicio) {
             myFragment = new InicioFragment();
             fragmentSelected = true;
         } else if (id == R.id.nav_registrar) {
             myFragment = new RegistrarPersonaFragment();
             fragmentSelected = true;
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_editar) {
 
         } else if (id == R.id.nav_lista) {
             myFragment = new ListaPersonasFragment();
