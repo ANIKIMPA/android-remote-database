@@ -96,12 +96,13 @@ public class NavigationActivity extends AppCompatActivity
         Fragment myFragment = null;
         boolean fragmentSelected = false;
 
-        if (id == R.id.nav_home) {
-            // Handle the camera action
+        if (id == R.id.nav_inicio) {
+            myFragment = new InicioFragment();
+            fragmentSelected = true;
         } else if (id == R.id.nav_registrar) {
             myFragment = new RegistrarPersonaFragment();
             fragmentSelected = true;
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_editar) {
 
         } else if (id == R.id.nav_lista) {
             myFragment = new ListaPersonasFragment();

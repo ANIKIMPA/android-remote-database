@@ -1,4 +1,4 @@
-package com.niovan.webservicedatabase.fragments;
+package com.niovan.webservicedatabase;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,7 +8,6 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import com.niovan.webservicedatabase.R;
 import com.niovan.webservicedatabase.fragments.ListaPersonasFragment.OnListFragmentInteractionListener;
 import com.niovan.webservicedatabase.models.Persona;
 import com.squareup.picasso.Picasso;

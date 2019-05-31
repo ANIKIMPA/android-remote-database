@@ -8,13 +8,13 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_registrar">Registrar Persona</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_registrar">Añadir Persona</string>
+    <string name="menu_editar">Editar Persona</string>
     <string name="menu_lista">Lista de personas</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="txtInicio">Inicio</string>
+    <string name="txtInicio">Iniciar sesión</string>
 </resources>
