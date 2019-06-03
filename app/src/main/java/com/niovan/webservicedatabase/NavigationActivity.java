@@ -25,7 +25,7 @@ public class NavigationActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
         InicioFragment.OnFragmentInteractionListener,
         RegistrarPersonaFragment.OnFragmentInteractionListener,
-        ListaPersonasFragment.OnListFragmentInteractionListener{
+        ListaPersonasFragment.OnListFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

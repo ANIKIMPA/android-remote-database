@@ -37,12 +37,12 @@ public class MainActivity extends AppCompatActivity {
         String email = edtEmail.getText().toString();
         String password = edtPassword.getText().toString();
 
-        if (isValid(email, "^(.+)@(.+)$") && isValid(password, ".{4,12}")) {
+//        if (isValid(email, "^(.+)@(.+)$") && isValid(password, ".{4,12}")) {
             Intent intent = new Intent(getApplicationContext(), NavigationActivity.class);
             startActivity(intent);
-        }else {
-            Toast.makeText(this, "El email o la contraseña es incorrecto.", Toast.LENGTH_SHORT).show();
-        }
+//        }else {
+//            Toast.makeText(this, "El email o la contraseña es incorrecto.", Toast.LENGTH_SHORT).show();
+//        }
     }
 
     private boolean isValid(String input, String regex) {
